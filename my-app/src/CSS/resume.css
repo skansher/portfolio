@@ -1,7 +1,15 @@
-.wrapper {
+.wrapper1 {
     display: flex;
     justify-content: center;
-    padding: 10px;;
+    padding: 10px;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 100px;
+    margin: 10px;
 }
 
 .section-title {
@@ -12,4 +20,60 @@
     border-radius: 30px;
     padding-left: 10px;
     background-color: #344e41;
+}
+
+.section-title:hover {
+    background-color: #a3b18a;
+    color: #344e41;
+    transition: background-color 0.5s ease;
+}
+
+.section1 {
+    display: block;
+    justify-content: start;
+    width: 70%;
+}
+
+.section2 {
+    display: block;
+    justify-content: start;
+    width: 30%;
+}
+
+.degree {
+    font-size: 1.6em;
+    font-weight: 500;
+    width: 100%;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.details {
+    font-size: 1.2em;
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+li::marker {
+    color: #a3b18a;
+}
+
+.right {
+    padding-top: 10px;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding-right: 100px;
+    margin: 0;
+}
+
+.skills, .date {
+    font-size: 1.2em;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 0;
+    margin-top: 5px;
 }
