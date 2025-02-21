@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #dad7cd;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px; /* buffer */
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #dad7cd;
+    padding-left: 20px;
+}

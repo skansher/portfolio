@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px;;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: #344e41;
+}
