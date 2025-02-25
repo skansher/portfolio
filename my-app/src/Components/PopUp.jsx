@@ -1,0 +1,53 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../CSS/popup.css';
+import '../CSS/project.css';
+
+
+const PopUp = ({proj, onClose}) => {
+ 
+    return(
+        <div className="background">
+            <div className="popup-card">
+                <div className="proj-popup-title">
+                    <h2 className="popup-title">{proj.title}</h2>
+                    <button
+                        onClick={() => onClose()}
+                        className="close-icon"
+                    >X</button>
+                </div>
+                <div className="subheader">
+                <div className="pop-details">
+                        <p className="details"><strong>Association: </strong>{proj.association}</p>
+                        <p className="details"><strong>Position: </strong>{proj.position}</p>
+                        <p className="details"><strong>Date: </strong>{proj.date}</p>
+                        <p className="details" href={proj.github}><strong>Github: </strong><Link to={proj.github}>{proj.github}</Link></p>
+                        <p className="details" href={proj.video}><strong>Demo: </strong><Link to={proj.video}>{proj.video}</Link></p>
+                        <p className="details"><strong>Purpose: </strong>{proj.purpose}</p>
+                    </div>
+                </div>
+                <div className="row">
+                <div>
+                    <img className="popup-media" src={proj.media} alt={proj.alt}></img>
+                </div>
+                <div className="popup-info">
+                    <div className="pop-resp">
+                        <p className="details" style={{margin: "0px"}}><strong>Responsibilities:</strong></p>
+                        <ul>
+                            {proj.responsibilities.map((resp, index) => (
+                                    <li className="details" key={index}>{resp}</li>
+                                ))}
+                        </ul>
+                    </div>
+                    <div className="pop-tech">
+                        <p className="details"><strong>Technology/Skill: </strong>{proj.technology}</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    );
+
+}
+
+export default PopUp;

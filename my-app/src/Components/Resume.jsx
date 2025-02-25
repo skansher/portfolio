@@ -3,7 +3,6 @@ import Header from "./Header";
 import '../CSS/website.css';
 import '../CSS/resume.css';
 import resumeData from '../Files/resume.json';
-import background from '../Images/page_background1.png';
 
 const Resume = () => {
     const [dropDown, setDropDown] = useState(null);
@@ -34,11 +33,7 @@ const Resume = () => {
     
 
     return (
-    <div className="container" style={{
-            backgroundImage: `url(${background})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat"
-        }}>
+    <div className="container">
         <div className="top">
             <Header />
         </div>
@@ -92,7 +87,7 @@ const Resume = () => {
                         <p className="date">{exp.date}</p>
                         <ul>
                             {exp.details.map((detail, index) => (
-                                <li className="details" key={index}>{detail}</li>
+                                <li className="res-details" key={index}>{detail}</li>
                             ))}
                         </ul> 
                         <p className="skills">Skills: {exp.skills}</p>
@@ -120,7 +115,7 @@ const Resume = () => {
                         <p className="date">{proj.date}</p>
                         <ul>
                                 {proj.details.map((detail, index) => (
-                                    <li className="details" key={index}>{detail}</li>
+                                    <li className="res-details" key={index}>{detail}</li>
                                 ))}
                             </ul>
                         <p className="skills">Skills: {proj.skills}</p>

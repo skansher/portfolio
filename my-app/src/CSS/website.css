@@ -10,7 +10,9 @@ hmtl, body {
     width: 100%;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #dad7cd;
+    background-image: url(../Images/page_background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .top {
