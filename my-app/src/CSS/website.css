@@ -1,0 +1,27 @@
+hmtl, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #dad7cd;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #dad7cd;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; /* buffer */
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #dad7cd;
+    padding-left: 20px;
+}

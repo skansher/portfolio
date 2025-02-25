@@ -1,0 +1,134 @@
+{
+    "education": [
+        {
+            "degree": "B.S. Computer Science & Engineering",
+            "details": "3.4 GPA | Dean’s List SP 22, AU 23, SP 24, AU 24 | Studio Art Minor | Humanitarian Engineering Scholars",
+            "date": "August 2021 - December 2024"
+        }
+    ],
+    "experience": [
+        {
+            "position": "KeyBank – Service Account Governance Intern",
+            "date": "May 2024 - Aug 2024",
+            "location": "Cleveland, OH",
+            "details": [
+                "Contributed to the development and implementation of risk management strategies for newly established Service Account Governance program",
+                "Conducted comprehensive data analysis of service accounts within the company environment",
+                "Analyzed over 50,000 SSH keys, identified non-compliant keys, and reported findings to security team",
+                "Reviewed the effectiveness and completion of over 20 SSH key remediation plans",
+                "Provided feedback on project documentation, cross-team communications, and team objectives"
+            ],
+            "skills": "Data Analysis | SSH Keys | Identity Access Management | Privileged Access Management"
+        },
+        {
+            "position": "KeyBank – ServiceNow Software Development Intern",
+            "date": "May 2023 – Aug 2023",
+            "location": "Cleveland, OH",
+            "details": [
+                "Completed stories to streamline workflows, update datasets, and meet needs of story stakeholders with the ServiceNow Continuous Improvement Scrum Team",
+                "Engineered a robust Automated Test Framework (ATF) that streamlined testing protocols for Service Catalog updates",
+                "Acquired the ServiceNow System Administrator Certificate after completing the ServiceNow training",
+                "Researched system capabilities for a custom search feature, documented findings, and relayed information to stakeholders and peer engineering"
+            ],
+            "skills": "JavaScript | Git | Agile/Scrum | CSA certification | Automated Testing Framework"
+        },
+        {
+            "position": "University Libraries - Student Assistant",
+            "date": "March 2022 – Dec 2024",
+            "location": "Columbus, OH",
+            "details": [
+                "Conducted over 1,600 transactions by answering reference, directional, and technology inquiries for patrons",
+                "Collaborated with library and university staff to enhance undergraduate workshops, create patron resources, and develop new training guides",
+                "Managed a team of 6-10 student staff to create an online Bulletin to promote student project achievements and quantitative evidence of our impact at University Libraries",
+                "First author on poster to the Michigan Academic Library Association (MiALA) on the topic of student staff self-advocacy and fair wages in academic libraries",
+                "Synthesized 5 years of department data into an interactive Excel Dashboard for future reporting"
+            ],
+            "skills": "Microsoft 365 | Team Management | Data Analysis | Excel | Power Automate"
+        }
+    ],
+        "projects": [
+            {
+                "title": "Water Plant Protect Application",
+                "date": "August 2024 - December 2024",
+                "location": "Senior Capstone Project",
+                "details": [
+                    "Collaborated with Ohio Cyber Reserve Standards Officer to develop a desktop assessment application to assist and educate water plant employees on CISA CPG cybersecurity at 3,800 Ohio water plants",
+                    "Completed CISA Cross-Sector Cybersecurity Performance Goals (CPG) Compliance training",
+                    "Designed a user-friendly, interactive CPG assessment to meet the needs of water plant employees",
+                    "Built a knowledge base to host over 60 knowledge documents such as risk management plans, incident response plans, and more",
+                    "Implemented algorithms to return overall compliance results and suggest knowledge articles based on results"
+                ],
+                "skills": "React | Electron.js | JSON | Cybersecurity Documentation | CISA CPG Certified"
+            },
+            {
+                "title":"Collapsing Drums",
+                "date": "August 2024 - December 2024",
+                "location": "CSE 5234 Project",
+                "details": [
+                    "Utilized React to create a responsive, user-friendly interface that allows users to stream music, manage concert tickets, and purchase merchandise",
+                    "Adopted AWS services such as API Gateway and Lambda to manage serverless architecture",
+                    "Configured a cloud databased for efficient data storage and retrieval of users account information, merchandise inventory, ticket management, and music"
+                ],
+                "skills": "React | Node.js | Bootstrap | Amazon Web Services (AWS) | MySQL"
+            },
+            {
+                "title": "Quandary Language Interpreter",
+                "date": "August 2024 - December 2024",
+                "location": "CSE 3341 Project",
+                "details": [
+                    "Developed an interpreter for custom language (Quandary) that blends function and imperative paradigms",
+                    "Implemented key features such as lexical analysis, parsing, and abstract syntax trees (AST) in Java by modifying skeleton interpreter",
+                    "Applied memory management techniques, created test cases, debugged errors, and ensure program correctness with automated grading scripts",
+                    "Built functionality for concurrency and thread synchronization"
+                ],
+                "skills": "Java | Complier & Interpreter Design | Lexical Analysis & Parsing | Memory Management | Concurrency"
+            },
+            {
+                "title": "Super Mario 3 NES Remake",
+                "date": "August 2023 - December 2023",
+                "location": "CSE 3902 Project",
+                "details": [
+                    "Recreated Super Mario Bros 3 with a team of 6 CSE students using MonoGame ",
+                    "Implemented design patterns and algorithms to manage player behaviors and collision logic",
+                    "Applied data-driven approach for managing game assets by utilizing JSON files to store sprite data, level layout, and game object",
+                    "Organized scrum meetings, delegated sprint tasks, prepared code reviews, and was main debugger"
+                ],
+                "skills": "C# | Microsoft .NET | Visual Studio | MonoGame | Git | JSON"
+            }
+        ],
+        "publications": [
+            {
+                "title": "Energy Efficient LoRaWAN in LEO Satellites",
+                "date": "October 2024 - December 2024",
+                "citation": "Shergill, Muskan, et al. \"Energy Efficient LoRaWAN in LEO Satellites.\" arXiv, 2024, https://arxiv.org/abs/2412.20660.\n",
+                "location": "CSE 5463 Research",
+                "details": "LPWAN service's inexpensive cost and long range capabilties make it a promising addition, and countless satellite companies have started taking advantage of this technology to connect IoT users across the globe. However, LEO satellites have the unique challenge of using rechargeable batteries and green solar energy to power their components. LPWAN technology is not optimized to maximize batter lifespan of network nodes. By incorporating a MAC protocol that maximizes nodes, we can maximize battery lifespan, thus reducing battery waste and usage of scarce Earth resources to develop satellite batteries."
+            },
+            {
+                "title": "Raising the Bar: Adovcacy for Student Staff Compensation",
+                "date": "December 2023 - May 2024",
+                "citation": "Shergill, Muskan, et al. \" Self-Advocacy for Student Workers for Higher Wage in Academia\" Michigan Academic Library Association, 2024 https://miala.org/2024_ac_poster_session_informa.php\n",
+                "location": "MiALA Conference",
+                "details": "Undergraduate students are an integral part of Ask Us services at The Ohio State University Libraries. Students perform a wide-range of jobs including answering high volumes of chat reference questions, co-designing and teaching workshops with librarians, and providing peer-research coaching appointments for novice undergraduate researchers. This poster will describe student-driven efforts to seek better compoensation as well as the managerial philosophy behind working with students in partnership to create educationally purposeful student employment."
+            }
+        ],
+        "skills": [
+            {
+                "title": "Programming Languages",
+                "details": "React, Node.js, Electron.js, Microsoft .NET, C#, JavaScript, HTML, Python, Java, C"
+            },
+            {
+                "title": "Database & Cloud",
+                "details": "PostgreSQL, MySQL, Amazon Web Services (AWS)"
+            },
+            {
+                "title": "Development Tools",
+                "details": "Visual Studio, Git, Selenium, Arduino, MATLAB, ServiceNow, Unity, Unreal Engine"
+            },
+            {
+                "title": "Additional Skills",
+                "details": "Maya, Adobe Express, Adobe Illustrator, Microsoft 365"
+            }
+            
+        ]
+}
