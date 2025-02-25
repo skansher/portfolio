@@ -111,6 +111,24 @@
                 "location": "MiALA Conference",
                 "details": "Undergraduate students are an integral part of Ask Us services at The Ohio State University Libraries. Students perform a wide-range of jobs including answering high volumes of chat reference questions, co-designing and teaching workshops with librarians, and providing peer-research coaching appointments for novice undergraduate researchers. This poster will describe student-driven efforts to seek better compoensation as well as the managerial philosophy behind working with students in partnership to create educationally purposeful student employment."
             }
-
+        ],
+        "skills": [
+            {
+                "title": "Programming Languages",
+                "details": "React, Node.js, Electron.js, Microsoft .NET, C#, JavaScript, HTML, Python, Java, C"
+            },
+            {
+                "title": "Database & Cloud",
+                "details": "PostgreSQL, MySQL, Amazon Web Services (AWS)"
+            },
+            {
+                "title": "Development Tools",
+                "details": "Visual Studio, Git, Selenium, Arduino, MATLAB, ServiceNow, Unity, Unreal Engine"
+            },
+            {
+                "title": "Additional Skills",
+                "details": "Maya, Adobe Express, Adobe Illustrator, Microsoft 365"
+            }
+            
         ]
 }

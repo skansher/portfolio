@@ -183,7 +183,7 @@ h2 {
     background-position: center;
     width: 300px;
     height: 70px;
-    padding-left: 70px;
+    padding-left: 80px;
     align-items: center;
     justify-content: flex-end;
     cursor: pointer;
@@ -220,9 +220,19 @@ h2 {
 .publications{
     background-image: url(../Images/publications_blue.png); 
     height: 90px;
-    padding-left: 140px;
+    padding-left: 150px;
 }
 
 .publications.visible, .publications:hover {
     background-image: url(../Images/publications_pink.png); 
+}
+
+.skillsImg{
+    background-image: url(../Images/skills_blue.png); 
+    height: 70px;
+    padding-left: 0px;
+}
+
+.skillsImg.visible, .skillsImg:hover {
+    background-image: url(../Images/skills_pink.png); 
 }

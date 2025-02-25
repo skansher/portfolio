@@ -4,7 +4,7 @@ import '../CSS/website.css';
 import '../CSS/home.css';
 import backgroundImage from '../Images/home_page_background.png';
 
-const Home = ({}) => {
+const Home = () => {
     return (
         <div className="container" style={{
             backgroundImage: `url(${backgroundImage})`,

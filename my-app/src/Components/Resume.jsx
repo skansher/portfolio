@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Header from "./Header";
 import '../CSS/website.css';
 import '../CSS/resume.css';
 import resumeData from '../Files/resume.json';
 import background from '../Images/page_background1.png';
 
-const Resume = ({}) => {
+const Resume = () => {
     const [dropDown, setDropDown] = useState(null);
 
     const toggleSection = (section) => {
@@ -135,7 +135,7 @@ const Resume = ({}) => {
                 </div>
             </div>
             {resumeData.publications.map((pub, index) => (
-                <div className={`wrapper2 ${dropDown === 'publications' ? 'visible' : ''}`} key={index}>
+            <div className={`wrapper2 ${dropDown === 'publications' ? 'visible' : ''}`} key={index}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                     <div className="section1">
                             <p className="degree">{pub.title}</p>
@@ -149,6 +149,26 @@ const Resume = ({}) => {
                 </div>
             </div>
                 ))}
+
+            {/* SKILLS */}
+            <div className="wrapper1">
+                <div className="section-title" onClick={() => toggleSection('skills')}>
+                    <div className={`section-image skillsImg ${dropDown === 'skills' ? 'visible' : ''}`}></div>
+                </div>
+            </div>
+            {resumeData.skills.map((sk, index) => (
+                <div className={`wrapper2 ${dropDown === 'skills' ? 'visible' : ''}`} key={index}>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <div className="section1">
+                            <p className="degree">{sk.title}</p>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
+                        <p className="skills" style={{fontWeight: '400', fontSize: '1em'}}>{sk.details}</p>
+                    </div>
+                </div>
+            ))}
+
         </div>
 
     </div>
