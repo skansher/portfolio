@@ -11,6 +11,7 @@
             "position": "KeyBank – Service Account Governance Intern",
             "date": "May 2024 - Aug 2024",
             "location": "Cleveland, OH",
+            "summary": "Contributed to the development of risk management strategies for the Service Account Governance program by analyzing over 50,000 SSH keys, identifying non-compliant ones, and reviewing remediation plans. Collaborated with the security team to enhance project documentation and communication across teams.",
             "details": [
                 "Contributed to the development and implementation of risk management strategies for newly established Service Account Governance program",
                 "Conducted comprehensive data analysis of service accounts within the company environment",
@@ -24,6 +25,7 @@
             "position": "KeyBank – ServiceNow Software Development Intern",
             "date": "May 2023 – Aug 2023",
             "location": "Cleveland, OH",
+            "summary": "Streamlined workflows and updated datasets with the ServiceNow Continuous Improvement Scrum Team, while engineering an Automated Test Framework (ATF) to optimize testing for Service Catalog updates. Earned the ServiceNow System Administrator Certificate and researched system capabilities for a custom search feature.",
             "details": [
                 "Completed stories to streamline workflows, update datasets, and meet needs of story stakeholders with the ServiceNow Continuous Improvement Scrum Team",
                 "Engineered a robust Automated Test Framework (ATF) that streamlined testing protocols for Service Catalog updates",
@@ -36,6 +38,7 @@
             "position": "University Libraries - Student Assistant",
             "date": "March 2022 – Dec 2024",
             "location": "Columbus, OH",
+            "summary": "Managed a team of student staff while conducting over 1,600 transactions and collaborating with library and university staff to enhance workshops, create resources, and develop training guides. Authored a poster on student staff self-advocacy for the MiALA, and synthesized departmental data into an interactive Excel Dashboard for reporting.",
             "details": [
                 "Conducted over 1,600 transactions by answering reference, directional, and technology inquiries for patrons",
                 "Collaborated with library and university staff to enhance undergraduate workshops, create patron resources, and develop new training guides",
@@ -51,6 +54,7 @@
                 "title": "Water Plant Protect Application",
                 "date": "August 2024 - December 2024",
                 "location": "Senior Capstone Project",
+                "summary": "Collaborated with the Ohio Cyber Reserve Standards Officer to develop a desktop assessment application for educating water plant employees on CISA CPG cybersecurity across 3,800 plants. Designed an interactive CPG assessment, built a knowledge base with over 60 documents, and implemented algorithms to assess compliance and recommend relevant knowledge articles.",
                 "details": [
                     "Collaborated with Ohio Cyber Reserve Standards Officer to develop a desktop assessment application to assist and educate water plant employees on CISA CPG cybersecurity at 3,800 Ohio water plants",
                     "Completed CISA Cross-Sector Cybersecurity Performance Goals (CPG) Compliance training",
@@ -64,6 +68,7 @@
                 "title":"Collapsing Drums",
                 "date": "August 2024 - December 2024",
                 "location": "CSE 5234 Project",
+                "summary": "Developed a responsive interface using React for music streaming, concert ticket management, and merchandise purchases. Utilized AWS services like API Gateway and Lambda for serverless architecture and configured a cloud database for efficient storage and retrieval of user accounts, inventory, tickets, and music data.",
                 "details": [
                     "Utilized React to create a responsive, user-friendly interface that allows users to stream music, manage concert tickets, and purchase merchandise",
                     "Adopted AWS services such as API Gateway and Lambda to manage serverless architecture",
@@ -75,6 +80,7 @@
                 "title": "Quandary Language Interpreter",
                 "date": "August 2024 - December 2024",
                 "location": "CSE 3341 Project",
+                "summary": "Developed an interpreter for the custom language Quandary, combining functional and imperative paradigms. Implemented lexical analysis, parsing, and abstract syntax trees (AST) in Java, applied memory management techniques, and created test cases. Debugged errors, ensured program correctness with automated grading scripts, and built functionality for concurrency and thread synchronization.",
                 "details": [
                     "Developed an interpreter for custom language (Quandary) that blends function and imperative paradigms",
                     "Implemented key features such as lexical analysis, parsing, and abstract syntax trees (AST) in Java by modifying skeleton interpreter",
@@ -87,6 +93,7 @@
                 "title": "Super Mario 3 NES Remake",
                 "date": "August 2023 - December 2023",
                 "location": "CSE 3902 Project",
+                "summary": "Recreated Super Mario Bros 3 with a team of 6 CSE students using MonoGame. Implemented design patterns and algorithms for player behaviors and collision logic, applied a data-driven approach with JSON files for game assets, and managed scrum meetings, task delegation, code reviews, and debugging.",
                 "details": [
                     "Recreated Super Mario Bros 3 with a team of 6 CSE students using MonoGame ",
                     "Implemented design patterns and algorithms to manage player behaviors and collision logic",
@@ -95,5 +102,22 @@
                 ],
                 "skills": "C# | Microsoft .NET | Visual Studio | MonoGame | Git | JSON"
             }
+        ],
+        "publications": [
+            {
+                "title": "Energy Efficient LoRaWAN in LEO Satellites",
+                "date": "October 2024 - December 2024",
+                "citation": "Shergill, Muskan, et al. \"Energy Efficient LoRaWAN in LEO Satellites.\" arXiv, 2024, https://arxiv.org/abs/2412.20660.\n",
+                "location": "CSE 5463 Research",
+                "details": "LPWAN service's inexpensive cost and long range capabilties make it a promising addition, and countless satellite companies have started taking advantage of this technology to connect IoT users across the globe. However, LEO satellites have the unique challenge of using rechargeable batteries and green solar energy to power their components. LPWAN technology is not optimized to maximize batter lifespan of network nodes. By incorporating a MAC protocol that maximizes nodes, we can maximize battery lifespan, thus reducing battery waste and usage of scarce Earth resources to develop satellite batteries."
+            },
+            {
+                "title": "Raising the Bar: Adovcacy for Student Staff Compensation",
+                "date": "December 2023 - May 2024",
+                "citation": "Shergill, Muskan, et al. \" Self-Advocacy for Student Workers for Higher Wage in Academia\" Michigan Academic Library Association, 2024 https://miala.org/2024_ac_poster_session_informa.php\n",
+                "location": "MiALA Conference",
+                "details": "Undergraduate students are an integral part of Ask Us services at The Ohio State University Libraries. Students perform a wide-range of jobs including answering high volumes of chat reference questions, co-designing and teaching workshops with librarians, and providing peer-research coaching appointments for novice undergraduate researchers. This poster will describe student-driven efforts to seek better compoensation as well as the managerial philosophy behind working with students in partnership to create educationally purposeful student employment."
+            }
+
         ]
 }

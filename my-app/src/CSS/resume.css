@@ -1,3 +1,45 @@
+.resume {
+    margin-bottom: 50px;
+}
+
+.download-div {
+    display:flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 25%;
+    height: 85px;
+    background-color: white;
+    transition: background-image 1s ease;
+}
+
+.download-div:hover{
+    width: 25%;
+    border-radius: 20px;
+}
+
+.download-div:hover .download-image {
+    background-image: url(../Images/download_pink.png);
+}
+
+.wrapper2.visible .education1, .wrapper2.visible .education2 {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    color: #0252FE;
+    font-size: 1.6em;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    transition: color 0.5s ease;
+}
+
 .wrapper1 {
     display: flex;
     justify-content: center;
@@ -6,10 +48,31 @@
 
 .wrapper2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
-    padding-left: 100px;
-    margin: 10px;
+    width: 80%;
+    margin: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.wrapper2.visible {
+    max-height: 1000px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.wrapper2.visible:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.skills {
+    padding-bottom: 20px;
 }
 
 .section-title {
@@ -19,25 +82,22 @@
     height: 60px;
     border-radius: 30px;
     padding-left: 10px;
-    background-color: #344e41;
+    background-color: white;
 }
 
-.section-title:hover {
-    background-color: #a3b18a;
-    color: #344e41;
-    transition: background-color 0.5s ease;
+.section1, .section2 {
+    display: flex;
+    align-items: center;  
 }
 
 .section1 {
-    display: block;
-    justify-content: start;
-    width: 70%;
+    width: 60%;  
+    justify-content: flex-start;  
 }
 
 .section2 {
-    display: block;
-    justify-content: start;
-    width: 30%;
+    width: 40%;  
+    justify-content: flex-end; 
 }
 
 .degree {
@@ -48,15 +108,18 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.details {
+.summary {
     font-size: 1.2em;
-    font-weight: 200;
+    font-weight: 300;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-li::marker {
-    color: #a3b18a;
+li::marker, li {
+    color: white;
+    font-weight: 400;
 }
 
 .right {
@@ -69,11 +132,97 @@ li::marker {
     margin: 0;
 }
 
-.skills, .date {
+.skills, .date, .citation {
     font-size: 1.2em;
-    font-weight: 200;
+    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     margin: 0;
     margin-top: 5px;
+}
+
+.citation {
+    margin-bottom: 10px;
+}
+
+p{
+    color: white;
+}
+
+h2 {
+    color: #0252FE;
+    background-color: none;
+    transition: backgrounc-color 0.5s, ease, color 0.5s ease;
+}
+
+.download-image {
+    background-image: url(../Images/download_blue.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 350px;
+    height: 85px;
+    align-items: center; 
+    justify-content: flex-end; 
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.section-image {
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 70px;
+    padding-left: 70px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.education {
+    height: 85px;
+    padding-left: 120px;
+    background-image: url(../Images/education_blue.png); 
+}
+
+.education.visible, .education:hover {
+    background-image: url(../Images/education_pink.png); 
+}
+
+.experience {
+    height: 85px;
+    padding-left: 120px;
+    background-image: url(../Images/experience_blue.png); 
+}
+
+.experience.visible, .experience:hover {
+    background-image: url(../Images/experience_pink.png); 
+}
+
+.projects {
+    background-image: url(../Images/projects_blue.png); 
+}
+
+.projects.visible, .projects:hover {
+    background-image: url(../Images/projects_pink.png); 
+}
+
+.publications{
+    background-image: url(../Images/publications_blue.png); 
+    height: 90px;
+    padding-left: 140px;
+}
+
+.publications.visible, .publications:hover {
+    background-image: url(../Images/publications_pink.png); 
 }

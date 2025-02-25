@@ -5,20 +5,20 @@ import '../CSS/header.css';
 const Header = ({}) => {
     return (
         <div className="header">
-            <div className="brand">
-                <h3><Link to="/home" className="link">Muskan Shergill</Link></h3>
+            <Link to="/home" className="link">
+                <div className="brand"></div>
+            </Link>
+            <div className="header-element">
+                <Link to="/resume" className="link">Resume/CV</Link>
             </div>
             <div className="header-element">
-                <a> <Link to="/resume" className="link">Resume</Link> </a>
+                <Link to="/projects" className="link">Projects</Link>
             </div>
             <div className="header-element">
-                <a> <Link to="/projects" className="link">Projects</Link> </a>
+                <Link to="/publications" className="link">Publications</Link>
             </div>
             <div className="header-element">
-                <a> <Link to="/publications" className="link">Publications</Link> </a>
-            </div>
-            <div className="header-element">
-                <a> <Link to="/contact" className="link">Contact</Link> </a>
+                <Link to="/contact" className="link">Contact</Link>
             </div>
         </div>
     );
