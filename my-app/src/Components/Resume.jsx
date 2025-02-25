@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from "./Header";
 import '../CSS/website.css';
 import '../CSS/resume.css';
@@ -12,6 +12,27 @@ const Resume = ({}) => {
         setDropDown(dropDown === section ? null : section);
     }
 
+    const handleDownload = () => {
+        // Define the file URL you want to download
+        const fileUrl = '/Muskan_Shergill_Resume.pdf'; // replace with your file path
+        const fileName = 'Muskan_Shergill_Resume.pdf'; // specify the name for the downloaded file
+    
+        // Create an anchor element
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = fileName;
+    
+        // Append the link to the document body
+        document.body.appendChild(link);
+    
+        // Trigger the click event to start the download
+        link.click();
+    
+        // Remove the link after the download is triggered
+        document.body.removeChild(link);
+    };
+    
+
     return (
     <div className="container" style={{
             backgroundImage: `url(${background})`,
@@ -24,7 +45,7 @@ const Resume = ({}) => {
         <div className="resume">
 
             {/* DOWNLOAD RESUME */}
-            <div className="download-div">
+            <div className="download-div" onClick={handleDownload}>
                 <div className="download-image"></div>
             </div>
 
@@ -69,7 +90,11 @@ const Resume = ({}) => {
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
                         <p className="date">{exp.date}</p>
-                        <p className="summary">{exp.summary}</p>
+                        <ul>
+                            {exp.details.map((detail, index) => (
+                                <li className="details" key={index}>{detail}</li>
+                            ))}
+                        </ul> 
                         <p className="skills">Skills: {exp.skills}</p>
                     </div>
                 </div>
@@ -93,7 +118,11 @@ const Resume = ({}) => {
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
                         <p className="date">{proj.date}</p>
-                        <p className="summary">{proj.summary}</p>
+                        <ul>
+                                {proj.details.map((detail, index) => (
+                                    <li className="details" key={index}>{detail}</li>
+                                ))}
+                            </ul>
                         <p className="skills">Skills: {proj.skills}</p>
                     </div>
                 </div>
@@ -121,7 +150,9 @@ const Resume = ({}) => {
             </div>
                 ))}
         </div>
+
     </div>
+
     );
 }
 
