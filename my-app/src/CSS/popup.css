@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rbga(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,14 +55,32 @@
 .popup-media {
     margin-top: 25px;
     margin-right: 30px;
-    width: 600px;
-    height: 380px;
+    width: 540px;
+    height: 320px;
     border-radius: 20px;
     background-color: black;
 }
 
+.download-proj {
+    width: 35%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-style: bold;
+    color: white;
+    font-size: 0.8em;
+    background-color: #0252FE;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.download-proj:hover {
+    background-color: #80a8ff;
+}
+
 .popup-info {
-    width: 600px;
+    width: 640px;
     height: 650px;
 }
 
@@ -95,4 +113,8 @@ li::marker {
 
 .pop-resp {
     margin-top: 25px;
+}
+
+strong {
+    color: #0252FE;
 }

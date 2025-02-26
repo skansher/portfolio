@@ -13,7 +13,7 @@ const Resume = () => {
 
     const handleDownload = () => {
         // Define the file URL you want to download
-        const fileUrl = '/Muskan_Shergill_Resume.pdf'; // replace with your file path
+        const fileUrl = '/Files/Muskan_Shergill_Resume.pdf'; // replace with your file path
         const fileName = 'Muskan_Shergill_Resume.pdf'; // specify the name for the downloaded file
     
         // Create an anchor element

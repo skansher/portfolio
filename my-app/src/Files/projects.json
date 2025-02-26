@@ -26,7 +26,7 @@
         "purpose": "Develop an eCommerce site of the product team's choice with the goal of developing design skills with React/CSS and utilizing serverless backend architecture with AWS.",
         "github": "Coming Soon",
         "video": "N/A",
-        "media": "",
+        "media": "/Images/cd_thumb.png",
         "responsibilities": [
             "Utilize React, CSS, and graphic tools such as Canva to create a responsive, user-friendly interface that allows users to stream music, manage concert tickets, and purchase merchandise.",
             "Adopt AWS RDS feature to manage database of inventory for the business and a 3rd party shipping service.",
@@ -52,6 +52,22 @@
         "technology": "Java | Compilier & Interpreter Desing | Lexical Analysis & Parsing | Memory Management | Concurrency"
     },
     {
+        "title": "Super Mario 3 NES Remake",
+        "date": "August 2023 - December 2023",
+        "association": "Interactive Systems (Junior) Project",
+        "position": "None",
+        "purpose": "",
+        "github": "https://github.com/skansher/Boshi_Project",
+        "video": "https://www.youtube.com/watch?v=AWUaUI1LU3I",
+        "media": "/Images/supermario3_thumb.png",
+        "alt": "Super Mario 2 NES Remake Demo Video",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Java | Compilier & Interpreter Desing | Lexical Analysis & Parsing | Memory Management | Concurrency"
+    },
+    {
         "title": "Ask Us Dashboard",
         "date": "Febuary 2025",
         "association": "University Libraries - Research & Learning Collaborative",
@@ -59,12 +75,14 @@
         "purpose": "",
         "github": "N/A",
         "video": "N/A",
-        "media": "",
+        "media": "/Images/askus_logo.jpg",
+        "alt": "Screenshot of redacted Ask Us Excel Dashboard",
         "responsibilities": [
             "",
             ""
         ],
-        "technology": "Excel | Data Analysis | Pivot Tables | Dashboard | Data Models"
+        "technology": "Excel | Data Analysis | Pivot Tables | Dashboard | Data Models",
+        "download": "/Files/AskUsDashboard_Redacted.pdf"
     },
     {
         "title": "RLC Semester Bulletins",
@@ -98,19 +116,19 @@
         "technology": "Maya | Procreate | KeyFraming | Rigging | Storyboarding | Modeling | Texturing | Rendering | Lighting"
     },
     {
-        "title": "Super Mario 3 NES Remake",
-        "date": "August 2023 - December 2023",
-        "association": "Interactive Systems (Junior) Project",
+        "title": "Luminous Threads",
+        "date": "January 2024 - May 2024",
+        "association": "New Media Robotics Project",
         "position": "None",
         "purpose": "",
-        "github": "https://github.com/skansher/Boshi_Project",
-        "video": "https://www.youtube.com/watch?v=AWUaUI1LU3I",
-        "media": "/Images/supermario3_thumb.png",
-        "alt": "Super Mario 2 NES Remake Demo Video",
+        "github": "N/A",
+        "video": "Coming Soon",
+        "media": "",
+        "alt": "",
         "responsibilities": [
             "",
             ""
         ],
-        "technology": "Java | Compilier & Interpreter Desing | Lexical Analysis & Parsing | Memory Management | Concurrency"
+        "technology": "Arduino | Adobe Illustrator | Laser Cutting"
     }
 ]
