@@ -19,8 +19,8 @@ const Footer = () => {
             <div className="middle">
             </div>
             <div className="right">
-                <p className="fcontact">(440) 502 7065</p>
-                <p className="fcontact">muskan.shergill@outlook.com</p>
+                <p className="flink">(440) 502 7065</p>
+                <p className="flink">muskan.shergill@outlook.com</p>
                 <div className="fsocials">
                     <a className="fgit" target="_blank" rel="noopener noreferrer" href="https://github.com/skansher"><FaSquareGithub/></a>
                     <a className="flinkd" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muskan-shergill-595a331a2"><FaLinkedin /></a>

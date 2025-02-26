@@ -58,7 +58,7 @@ const Resume = () => {
                         <p className="degree">{edu.degree}</p>
                      </div>
                      <div className="section2">
-                         <p className="right">{edu.date}</p>
+                         <p className="sub">{edu.date}</p>
                      </div>
                  </div>
                  <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
@@ -81,7 +81,7 @@ const Resume = () => {
                             <p className="degree">{exp.position}</p>
                         </div>
                         <div className="section2">
-                            <p className="right">{exp.location}</p>
+                            <p className="sub">{exp.location}</p>
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
@@ -109,7 +109,7 @@ const Resume = () => {
                             <p className="degree">{proj.title}</p>
                         </div>
                         <div className="section2">
-                            <p className="right">{proj.location}</p>
+                            <p className="sub">{proj.location}</p>
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
@@ -137,7 +137,7 @@ const Resume = () => {
                             <p className="degree">{pub.title}</p>
                     </div>
                     <div className="section2">
-                        <p className="right">{pub.location}</p>
+                        <p className="sub">{pub.location}</p>
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
