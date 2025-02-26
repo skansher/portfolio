@@ -108,7 +108,7 @@ li {
 }
 
 li::marker {
-    color: #0252FE;
+    color: black;
 }
 
 .pop-resp {

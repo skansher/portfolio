@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Header from "./Header";
+import Footer from "./Footer";
 import '../CSS/website.css';
 import '../CSS/resume.css';
 import resumeData from '../Files/resume.json';
@@ -165,7 +166,9 @@ const Resume = () => {
             ))}
 
         </div>
-
+        <div className="bottom">
+                <Footer />
+        </div>
     </div>
 
     );

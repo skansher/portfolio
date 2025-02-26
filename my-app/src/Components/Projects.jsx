@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Header from "./Header";
+import Footer from "./Footer";
 import '../CSS/website.css';
 import '../CSS/project.css';
 import PopUp from '../Components/PopUp.jsx';
@@ -25,6 +26,11 @@ const Projects = () => {
                 <Header />
             </div>
 
+            <div className="proj-header">
+                <img className="header-img" src="/Images/projects_white.png" alt="Projects"></img>
+                <p className="header-p">From passion pieces to work projects to capstones, I love exploring new things & expanding my skills. Check out some of my projects below.</p>
+            </div>
+
             {/* PROJECTS CONTAINER */}
             <div className="projects-list">
                 {projectData.map((proj, index) => (
@@ -45,6 +51,9 @@ const Projects = () => {
                     onClose={closePopUp}
                 />
             )}
+            <div className="bottom">
+                <Footer />
+            </div>
         </div>
     );
 }

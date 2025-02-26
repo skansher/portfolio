@@ -1,6 +1,5 @@
 import React from 'react';
 import '../CSS/popup.css';
-import '../CSS/project.css';
 
 const PopUp = ({proj, onClose}) => {
     const handleDownload = () => {

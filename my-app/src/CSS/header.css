@@ -3,7 +3,6 @@
     flex-direction: row;
     width: 100vw;
     height: 100%;
-    
 }
 
 
@@ -22,8 +21,8 @@
     background-position: center;
     width: 20vw;
     height: 100px;
-    align-items: center; /* Center content vertically */
-    justify-content: flex-start; /* Flush left */
+    align-items: center;
+    justify-content: flex-start; 
 }
 
 .brand:hover {

@@ -1,0 +1,73 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+}
+
+.left, .middle, .right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+
+.link-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flink, .fcontact {
+    padding-right: 20px;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.fcontact {
+    font-size: 0.6em;
+}
+
+.flink:hover, .fcontact:hover {
+    color: white;
+}
+
+.middle {
+    background-image: url(../Images/LOGO.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fsocials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.fgit {
+    color: #2dba4e;
+    transition: color 0.3s ease;
+}
+
+.flinkd{
+    color: #0077B5;
+    transition: color 0.3s ease;
+}
+
+.fgit:hover, .flinkd:hover {
+    color: white;
+}
+

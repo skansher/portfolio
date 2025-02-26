@@ -1,3 +1,22 @@
+.proj-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: left;
+}
+
+.header-img {
+    width: 500px;
+    height: 120px;
+}
+
+.header-p {
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    margin-top: 0;
+}
+
 .projects-list {
     display: flex;
     flex-direction: row;
