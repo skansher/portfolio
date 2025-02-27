@@ -15,7 +15,6 @@ const Footer = () => {
                     <Link to="/publications" className="flink">Publications</Link>
                     <Link to="/contact" className="flink">Contact</Link>
                 </div>
-                
             </div>
             <div className="middle">
             </div>
