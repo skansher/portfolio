@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Water Plant Protect",
+        "date": "August 2024 - December 2024",
+        "association": "Senior Capstone Project",
+        "position": "Project Lead, Software Developer",
+        "purpose": "Develop a Desktop Assessment Application for Windows & Mac to assist water plant employees with CISA CPG compliance at 3,800 Ohio Water Plants.",
+        "github": "Repository is private due to agreement with sponsor.",
+        "video": "N/A",
+        "media": "",
+        "responsibilities": [
+            "Maintain correspondence with Ohio Cyber Reserve Standards Officer to provide project updates, organize user testing, and make critical development decisions.",
+            "Complete CISA Cross-Sector Cybersecurity Performance Goals (CPG) Compliance training and received certification.",
+            "Design a user-friendly, interactive CPG assessment of 38 questions that includes accessibility features, save options, on demand education guides, and report generation.",
+            "Developed a searchable knowledge base to host over 60 knowledge documents such as risk management plans, incident response plans, and more.",
+            "Maintain sprint boards and comprehensive project documentations for the product team, sponsor, and end users.",
+            "Complete missions with Ohio Cyber Reserve Members at participating water plants for user testing and application demos"
+        ],
+        "technology": "React | CSS | Electron.js | JSON | CISA CPG Certified | Project Documentation | Agile"
+    },
+    {
+        "title": "Collapsing Drums",
+        "date": "August 2024 - December 2024",
+        "association": "Distributed Enterprise Computing Project",
+        "position": "Full Stack Developer",
+        "purpose": "Develop an eCommerce site of the product team's choice with the goal of developing design skills with React/CSS and utilizing serverless backend architecture with AWS.",
+        "github": "Coming Soon",
+        "video": "N/A",
+        "media": "/Images/cd_thumb.png",
+        "responsibilities": [
+            "Utilize React, CSS, and graphic tools such as Canva to create a responsive, user-friendly interface that allows users to stream music, manage concert tickets, and purchase merchandise.",
+            "Adopt AWS RDS feature to manage database of inventory for the business and a 3rd party shipping service.",
+            "Deploy lambda functions to manage inventory between presentation tier and the database, ensuring real-time updates and synchronization.",
+            "Deploy lambda functions to process payment and shipping information retrieved via http POST request.",
+            "Utilize AWS RDS to maintain a robust and scalable database for storing inventory, shipping, and payment details appropiately."
+        ],
+        "technology": "React | CSS | Node.js | Bootstrap | Amazaon Web Services (AWS) | MySQL"
+    },
+    {
+        "title": "Quandary Language",
+        "date": "August 2024 - December 2024",
+        "association": "Principles of Programming Language Project",
+        "position": "None",
+        "purpose": "",
+        "github": "Unavailable due to Academic Integrity Constraints",
+        "video": "N/A",
+        "media": "",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Java | Compilier & Interpreter Desing | Lexical Analysis & Parsing | Memory Management | Concurrency"
+    },
+    {
+        "title": "Super Mario 3 NES Remake",
+        "date": "August 2023 - December 2023",
+        "association": "Interactive Systems (Junior) Project",
+        "position": "None",
+        "purpose": "",
+        "github": "https://github.com/skansher/Boshi_Project",
+        "video": "https://www.youtube.com/watch?v=AWUaUI1LU3I",
+        "media": "/Images/supermario3_thumb.png",
+        "alt": "Super Mario 2 NES Remake Demo Video",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Java | Compilier & Interpreter Desing | Lexical Analysis & Parsing | Memory Management | Concurrency"
+    },
+    {
+        "title": "Ask Us Dashboard",
+        "date": "Febuary 2025",
+        "association": "University Libraries - Research & Learning Collaborative",
+        "position": "Student Assistant",
+        "purpose": "",
+        "github": "N/A",
+        "video": "N/A",
+        "media": "/Images/askus_logo.jpg",
+        "alt": "Screenshot of redacted Ask Us Excel Dashboard",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Excel | Data Analysis | Pivot Tables | Dashboard | Data Models",
+        "download": "/Files/AskUsDashboard_Redacted.pdf"
+    },
+    {
+        "title": "RLC Semester Bulletins",
+        "date": "August 2022 - December 2024",
+        "association": "University Libraries - Research & Learning Collaborative",
+        "position": "Student Assistant, Project Lead",
+        "purpose": "",
+        "github": "N/A",
+        "video": "N/A",
+        "media": "",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Leadership | Project Planning | Sway | Microsoft 365 | Canva"
+    },
+    {
+        "title": "Subway Rat",
+        "date": "January 2024 - May 2024",
+        "association": "Computer Animation Project",
+        "position": "None",
+        "purpose": "",
+        "github": "N/A",
+        "video": "https://vimeo.com/1057623317/e4790811f8?share=copy",
+        "media": "/Images/subwayrat_thumb.jpg",
+        "alt": "\"Subway Rat\" Video Thumbnail",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Maya | Procreate | KeyFraming | Rigging | Storyboarding | Modeling | Texturing | Rendering | Lighting"
+    },
+    {
+        "title": "Luminous Threads",
+        "date": "January 2024 - May 2024",
+        "association": "New Media Robotics Project",
+        "position": "None",
+        "purpose": "",
+        "github": "N/A",
+        "video": "Coming Soon",
+        "media": "",
+        "alt": "",
+        "responsibilities": [
+            "",
+            ""
+        ],
+        "technology": "Arduino | Adobe Illustrator | Laser Cutting"
+    }
+]

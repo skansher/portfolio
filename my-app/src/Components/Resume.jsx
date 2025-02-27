@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Header from "./Header";
+import Footer from "./Footer";
 import '../CSS/website.css';
 import '../CSS/resume.css';
 import resumeData from '../Files/resume.json';
-import background from '../Images/page_background1.png';
 
 const Resume = () => {
     const [dropDown, setDropDown] = useState(null);
@@ -14,7 +14,7 @@ const Resume = () => {
 
     const handleDownload = () => {
         // Define the file URL you want to download
-        const fileUrl = '/Muskan_Shergill_Resume.pdf'; // replace with your file path
+        const fileUrl = '/Files/Muskan_Shergill_Resume.pdf'; // replace with your file path
         const fileName = 'Muskan_Shergill_Resume.pdf'; // specify the name for the downloaded file
     
         // Create an anchor element
@@ -34,11 +34,7 @@ const Resume = () => {
     
 
     return (
-    <div className="container" style={{
-            backgroundImage: `url(${background})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat"
-        }}>
+    <div className="container">
         <div className="top">
             <Header />
         </div>
@@ -62,7 +58,7 @@ const Resume = () => {
                         <p className="degree">{edu.degree}</p>
                      </div>
                      <div className="section2">
-                         <p className="right">{edu.date}</p>
+                         <p className="sub">{edu.date}</p>
                      </div>
                  </div>
                  <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
@@ -85,14 +81,14 @@ const Resume = () => {
                             <p className="degree">{exp.position}</p>
                         </div>
                         <div className="section2">
-                            <p className="right">{exp.location}</p>
+                            <p className="sub">{exp.location}</p>
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
                         <p className="date">{exp.date}</p>
                         <ul>
                             {exp.details.map((detail, index) => (
-                                <li className="details" key={index}>{detail}</li>
+                                <li className="res-details" key={index}>{detail}</li>
                             ))}
                         </ul> 
                         <p className="skills">Skills: {exp.skills}</p>
@@ -113,14 +109,14 @@ const Resume = () => {
                             <p className="degree">{proj.title}</p>
                         </div>
                         <div className="section2">
-                            <p className="right">{proj.location}</p>
+                            <p className="sub">{proj.location}</p>
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
                         <p className="date">{proj.date}</p>
                         <ul>
                                 {proj.details.map((detail, index) => (
-                                    <li className="details" key={index}>{detail}</li>
+                                    <li className="res-details" key={index}>{detail}</li>
                                 ))}
                             </ul>
                         <p className="skills">Skills: {proj.skills}</p>
@@ -141,7 +137,7 @@ const Resume = () => {
                             <p className="degree">{pub.title}</p>
                     </div>
                     <div className="section2">
-                        <p className="right">{pub.location}</p>
+                        <p className="sub">{pub.location}</p>
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', marginTop: '10px' }}>
@@ -170,7 +166,9 @@ const Resume = () => {
             ))}
 
         </div>
-
+        <div className="bottom">
+                <Footer />
+        </div>
     </div>
 
     );

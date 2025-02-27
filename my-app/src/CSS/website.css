@@ -10,7 +10,9 @@ hmtl, body {
     width: 100%;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #dad7cd;
+    background-image: url(../Images/page_background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .top {
@@ -22,6 +24,10 @@ hmtl, body {
 h2 {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    color: #dad7cd;
-    padding-left: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
