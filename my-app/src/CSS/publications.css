@@ -1,0 +1,75 @@
+.pub-header {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    margin-bottom: 40px;
+    justify-content: left;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.pub-header .header-img {
+    width: 700px;
+    height: 120px;
+}
+
+.pub-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.pub {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pub-graphic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 550px;
+}
+
+.pub-graphic img {
+    width: 450px;
+    padding-bottom: 20px;
+}
+
+.pub-info {
+    padding: 20px;
+    margin-left: 30px;
+    width: 800px;
+}
+
+.pub-graphic, .pub-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.pub-title {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.abstract strong{
+    color: white;
+}
+
+.pub-info .citation a{
+    text-decoration: none;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.pub-info a {
+    color: lightblue;
+    transition: color 0.5s ease;
+}
+
+.pub-info a:hover {
+    color: white;
+}
