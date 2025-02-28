@@ -9,6 +9,12 @@ const Publications = () => {
             <div className="top">
                 <Header />
             </div>
+
+            <div className="pub-header">
+                <img className="header-img" src="/Images/publications_white.png" alt="Publications"></img>
+                <p className="header-p">Here, you'll find my research papers and academic contributions!</p>
+            </div>
+
             <div className="pub-list">
                 <div className="pub">
                     <div className="pub-graphic">

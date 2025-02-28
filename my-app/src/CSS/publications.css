@@ -1,3 +1,17 @@
+.pub-header {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    margin-bottom: 40px;
+    justify-content: left;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.pub-header .header-img {
+    width: 700px;
+    height: 120px;
+}
+
 .pub-list{
     display: flex;
     flex-direction: column;
