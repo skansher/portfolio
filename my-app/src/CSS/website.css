@@ -2,7 +2,6 @@ hmtl, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #dad7cd;
 }
 
 .container {
@@ -10,7 +9,7 @@ hmtl, body {
     width: 100%;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url(../Images/page_background1.png);
+    background-color: #030054;
     background-size: cover;
     background-repeat: no-repeat;
 }
